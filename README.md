@@ -1,7 +1,7 @@
 # A robots.txt parser and applicability checker for Rust
 
 [![Build Status](https://travis-ci.org/teuron/robots.svg)](https://travis-ci.org/teuron/robots)
-[![Crates.io](https://img.shields.io/crates/v/robots.svg)](https://crates.io/crates/robots)
+[![Crates.io](https://img.shields.io/crates/v/robots-parser.svg)](https://crates.io/crates/robots-parser)
 
 
 ## Usage
@@ -10,7 +10,7 @@ Add it to your ``Cargo.toml``:
 
 ```toml
 [dependencies]
-robots = "0.10"
+robots-parser = "0.10"
 ```
 
 ## Examples

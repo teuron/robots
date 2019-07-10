@@ -9,7 +9,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! robots = "0.10"
+//! robots-parser = "0.10"
 //! ```
 //!
 //!
