@@ -17,7 +17,7 @@
 //!
 //! ```rust,ignore
 //!
-//! use robots::RobotsParser;
+//! use robots-parser::RobotsParser;
 //! use url::Url;
 //!
 //! fn main() {

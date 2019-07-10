@@ -17,7 +17,7 @@ robots-parser = "0.10"
 
 ### Parse and check from URL
 ```rust
-use robots::RobotsParser;
+use robots-parser::RobotsParser;
 use url::Url;
 
 fn main() {
@@ -29,7 +29,7 @@ fn main() {
 ### Parse and check from File
 
 ```rust
-use robots::RobotsParser;
+use robots-parser::RobotsParser;
 
 fn main() {
     let parsed = RobotsParser::parse_path("~/test-robots.txt"))?;
@@ -40,7 +40,7 @@ fn main() {
 ### Parse and check from &str
 
 ```rust
-use robots::RobotsParser;
+use robots-parser::RobotsParser;
 
 fn main() {
     let parsed = RobotsParser::parse_path("Disallow: /test"))?;

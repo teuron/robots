@@ -1,5 +1,5 @@
 use criterion::{criterion_group, criterion_main, Criterion};
-use robots::RobotsParser;
+use robots_parser::RobotsParser;
 
 fn bench_small_robots(c: &mut Criterion) {
     //Taken from https://www.robotstxt.org/norobots-rfc.txt Section 4

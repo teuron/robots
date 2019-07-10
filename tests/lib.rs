@@ -1,6 +1,6 @@
-use robots::Robots;
-use robots::RobotsParser;
-use robots::Rule;
+use robots_parser::Robots;
+use robots_parser::RobotsParser;
+use robots_parser::Rule;
 
 #[test]
 fn full_robots() {
