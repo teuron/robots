@@ -1,0 +1,22 @@
+[package]
+name = "robots"
+version = "0.1.0"
+authors = ["Lukas Abfalterer <labfalterer@gmail.com>"]
+edition = "2018"
+
+
+[dependencies]
+nom = "5.0.0"
+url = "1.7.2"
+reqwest = { version = "0.9.18", optional=true }
+
+[features]
+default = ["web"]
+web = ["reqwest"]
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "bench"
+harness = false
