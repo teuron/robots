@@ -3,6 +3,8 @@ name = "robots"
 version = "0.1.0"
 authors = ["Lukas Abfalterer <labfalterer@gmail.com>"]
 edition = "2018"
+description = "A robots.txt file parser for rust"
+license = "MIT/Apache-2.0"
 
 
 [dependencies]
